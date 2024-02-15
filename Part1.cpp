@@ -24,26 +24,6 @@ void Questions(){
     } while (b <= 0);
 }
 
-int Sum(int a, int b){
-    return a + b;
-}
-
-int Diff(int a, int b){
-    return a - b;
-}
-
-int Mult(int a, int b){
-    return a * b;
-}
-
-int Div(int a, int b){
-    return a / b;
-}
-
-int DivRest(int a, int b){
-    return a % b;
-}
-
 void AreaCircle(){
     cout << "Type the value of the radius: ";
     cin >> r;
@@ -52,12 +32,11 @@ void AreaCircle(){
 
 int main(){
     Questions();
-
-    cout << "Sum: " << Sum(a, b) << endl;
-    cout << "Difference: "<< Diff(a, b) << endl;
-    cout << "Multiplication: " << Mult(a, b) << endl;
-    cout << "Division: "<< Div(a, b) << endl;
-    cout << "Rest of Division: " << DivRest(a, b) << endl;
+    cout << "Sum: " << a + b << endl;
+    cout << "Difference: "<< a - b << endl;
+    cout << "Multiplication: " << a * b << endl;
+    cout << "Division: "<< a / b << endl;
+    cout << "Rest of Division: " << a % b << endl;
     AreaCircle();
 
     return 0;
