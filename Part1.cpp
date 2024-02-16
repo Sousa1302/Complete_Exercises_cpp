@@ -27,7 +27,7 @@ void Questions(){
 void AreaCircle(){
     cout << "Type the value of the radius: ";
     cin >> r;
-    cout << "The are of the circle: " << PI * (r * r) << endl;
+    cout << "The area of the circle: " << PI * (r * r) << endl;
 }
 
 int main(){
