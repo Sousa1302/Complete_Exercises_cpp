@@ -12,8 +12,8 @@ void Read_Grades(){
         cout << "Type the grade for student " << g + 1 << ": ";
         cin >> grades[g];
         sum += grades[g];
+        Average = sum / 5;
     }
-    Average = sum / 5;
     cout << "Average grade: " << Average << endl;
 }
 
@@ -46,8 +46,9 @@ void ReadHighLow(int array[10]){
 
     for(int g = 0 ; g < 10 ; g++){
         sum += nums[g];
+        Average = sum / 10;
     }
-    Average = sum / 10;
+    
 
 
     for(int x = 0 ; x < 10 ; x++){
