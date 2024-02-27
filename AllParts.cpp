@@ -39,8 +39,8 @@ void calculos(){
 void notas(){
 
     int nums[10] = {10, 5, 9, 4, 92, 52, 62, 16, 81, 44};
-    float grades[5], high_comparision_num = grades[0], low_comparision_num = grades[0], high_comparision_num_2 = nums[0], low_comparision_num_2 = nums[0], Average, Average_2, sum = 0;
-    float sum_2 = 0;
+    float grades[5], high_comparision_num = grades[0], low_comparision_num = grades[0], high_comparision_num_2 = nums[0], low_comparision_num_2 = nums[0], Average, Average_2, sum = 0, sum_2 = 0;
+    
     
     for(int g = 0 ; g < 5 ; g++){
         cout << "Type the grade for student " << g + 1 << ": ";
